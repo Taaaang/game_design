@@ -1,17 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T13:22:29.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ReCXHJl2MQO9wSuefid8" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T13:28:59.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gF9VqRBXXoeHec5oKoFl" version="23.0.2" type="github">
   <diagram name="第 1 页" id="msGF96iAS9bvji9-bfGZ">
-    <mxGraphModel dx="989" dy="514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g0KuMlzQ4Tr-hMBE79pO-1" value="人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="333" y="227" width="120" height="60" as="geometry" />
+          <mxGeometry x="377" y="161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0KuMlzQ4Tr-hMBE79pO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g0KuMlzQ4Tr-hMBE79pO-2" target="g0KuMlzQ4Tr-hMBE79pO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0KuMlzQ4Tr-hMBE79pO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g0KuMlzQ4Tr-hMBE79pO-2" target="g0KuMlzQ4Tr-hMBE79pO-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g0KuMlzQ4Tr-hMBE79pO-2" value="声望" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="268" y="287" width="120" height="60" as="geometry" />
+          <mxGeometry x="161" y="283" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g0KuMlzQ4Tr-hMBE79pO-3" value="天赋" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="388" y="287" width="120" height="60" as="geometry" />
+          <mxGeometry x="574" y="283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0KuMlzQ4Tr-hMBE79pO-4" value="先天信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="604" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g0KuMlzQ4Tr-hMBE79pO-5" value="后天信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="192" y="231" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g0KuMlzQ4Tr-hMBE79pO-12" value="人与机构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0KuMlzQ4Tr-hMBE79pO-13" value="人与地区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
