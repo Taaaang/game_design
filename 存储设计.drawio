@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T12:03:24.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LpQvZYJHEI9M4QcImk1V" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T12:22:01.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="huALpKt1ViuRECS1gP8V" version="23.0.2" type="github">
   <diagram name="第 1 页" id="utUN4S7U_KKpuwVbOOjt">
     <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
           <mxGeometry x="494" y="210" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-27" value="StorageOperateResult" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="690" width="390" height="138" as="geometry" />
+          <mxGeometry x="410" y="790" width="390" height="138" as="geometry" />
         </mxCell>
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-28" value="+ status: int,&#x9;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;0 取出成功，1 取出失败" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JWGeBvaVPIYcXlpfm2Vx-27" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -67,7 +67,7 @@
           <mxGeometry y="112" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-33" value="ItemPackage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="408" y="430" width="392" height="242" as="geometry" />
+          <mxGeometry x="408" y="430" width="392" height="268" as="geometry" />
         </mxCell>
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-65" value="+ itemPackageId：long&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;包的唯一id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JWGeBvaVPIYcXlpfm2Vx-33" vertex="1">
           <mxGeometry y="26" width="392" height="26" as="geometry" />
@@ -78,7 +78,7 @@
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-64" value="+ information：ItemInformation&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;实例说明" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JWGeBvaVPIYcXlpfm2Vx-33" vertex="1">
           <mxGeometry y="78" width="392" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="prWdcYrloBbrFDDMd_Rt-1" value="+ averageQuality：int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;平均品质" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JWGeBvaVPIYcXlpfm2Vx-33">
+        <mxCell id="prWdcYrloBbrFDDMd_Rt-1" value="+ totalQuality：int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;平均品质" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JWGeBvaVPIYcXlpfm2Vx-33">
           <mxGeometry y="104" width="392" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JWGeBvaVPIYcXlpfm2Vx-33" vertex="1">
@@ -95,6 +95,9 @@
         </mxCell>
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-66" value="+&amp;nbsp;takeout(int number):List&amp;lt;ItemInstance&amp;gt; 获取指定数量的物品" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JWGeBvaVPIYcXlpfm2Vx-33" vertex="1">
           <mxGeometry y="216" width="392" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="prWdcYrloBbrFDDMd_Rt-2" value="+ averageQuality(): int&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;物品平均质量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JWGeBvaVPIYcXlpfm2Vx-33">
+          <mxGeometry y="242" width="392" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JWGeBvaVPIYcXlpfm2Vx-61" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="170" y="-170" width="440" height="126" as="geometry" />
