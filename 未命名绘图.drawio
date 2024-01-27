@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T10:56:49.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.0.2" etag="79FE2tXrpIz8-S0-N-9w" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T10:57:32.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZaE6ais92xvpk8OrzR_p" version="23.0.2" type="github">
   <diagram name="第 1 页" id="3V8NZiPNIGzD1AMQ8mw4">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HHKf8pC_p8qi1eC1l4ik-1" value="买方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHKf8pC_p8qi1eC1l4ik-2" value="卖方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="541" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHKf8pC_p8qi1eC1l4ik-3" value="交易体系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="422" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
