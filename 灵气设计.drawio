@@ -1,0 +1,181 @@
+<mxfile host="Electron" modified="2024-01-14T02:16:30.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="tx1lLagGyxWJkKY6R3ep" version="22.1.18" type="device">
+  <diagram name="第 1 页" id="1FZbrHgRsT_4zTFxjMYy">
+    <mxGraphModel dx="1434" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4b9IpAmTY_o_OzFH7aUh-1" target="4b9IpAmTY_o_OzFH7aUh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-1" value="灵气" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-3" value="灵气：SpiritualEnergy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-4" value="+ type: SpiritualEnergyEnumstype&amp;nbsp; 灵气类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-3">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-13" value="+ curLevel：int 当前灵气值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-3">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-12" value="+&amp;nbsp;maxLimitLevel：int 最高灵气值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-3">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-11" value="+ minLimitLevel： int 最低灵气值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-3">
+          <mxGeometry y="104" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-3">
+          <mxGeometry y="130" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-6" value="+ add(int level): int&amp;nbsp; 增加灵气，返回增加后的灵气，不会超过上限" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-3">
+          <mxGeometry y="138" width="290" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-7" value="灵气容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-9" value="灵气，类似于一个一个最小单元" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-10" value="灵气容器，类似于一个物体的整体灵气，及其对外表现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="-100" width="740" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-16" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-15">
+          <mxGeometry y="30" width="740.0000000000001" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-16">
+          <mxGeometry width="740.0000000000001" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-18" value="灵气类型" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-17">
+          <mxGeometry width="101" height="33" as="geometry">
+            <mxRectangle width="101" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-19" value="值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-17">
+          <mxGeometry x="101" width="103" height="33" as="geometry">
+            <mxRectangle width="103" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-20" value="Title 3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-17">
+          <mxGeometry x="204" width="536" height="33" as="geometry">
+            <mxRectangle width="536" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-16">
+          <mxGeometry y="33" width="740.0000000000001" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-22" value="金" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-21">
+          <mxGeometry width="101" height="32" as="geometry">
+            <mxRectangle width="101" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-23" value="Metal" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-21">
+          <mxGeometry x="101" width="103" height="32" as="geometry">
+            <mxRectangle width="103" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-24" value="金属性的可能被描述为具有坚韧、精神聚焦的特性，有助于提高意志力和修炼者的精神强度" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-21">
+          <mxGeometry x="204" width="536" height="32" as="geometry">
+            <mxRectangle width="536" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-16">
+          <mxGeometry y="65" width="740.0000000000001" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-26" value="木" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-25">
+          <mxGeometry width="101" height="31" as="geometry">
+            <mxRectangle width="101" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-27" value="Wood" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-25">
+          <mxGeometry x="101" width="103" height="31" as="geometry">
+            <mxRectangle width="103" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-28" value="木属性的可能与生机、成长有关，有助于修炼者提高身体的柔韧性和适应力。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-25">
+          <mxGeometry x="204" width="536" height="31" as="geometry">
+            <mxRectangle width="536" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-16">
+          <mxGeometry y="96" width="740.0000000000001" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-30" value="水" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-29">
+          <mxGeometry width="101" height="33" as="geometry">
+            <mxRectangle width="101" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-31" value="Water" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-29">
+          <mxGeometry x="101" width="103" height="33" as="geometry">
+            <mxRectangle width="103" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-32" value="水属性的可能具有清新、冷静的效果，有助于平复情绪，提升修炼者的心境。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-29">
+          <mxGeometry x="204" width="536" height="33" as="geometry">
+            <mxRectangle width="536" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-16">
+          <mxGeometry y="129" width="740.0000000000001" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-34" value="火" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-33">
+          <mxGeometry width="101" height="31" as="geometry">
+            <mxRectangle width="101" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-35" value="Fire" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-33">
+          <mxGeometry x="101" width="103" height="31" as="geometry">
+            <mxRectangle width="103" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-36" value="火属性的可能具有温暖、激励的效果，有助于激发修炼者内在的热情和活力。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-33">
+          <mxGeometry x="204" width="536" height="31" as="geometry">
+            <mxRectangle width="536" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-37" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-16">
+          <mxGeometry y="160" width="740.0000000000001" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-38" value="土" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-37">
+          <mxGeometry width="101" height="31" as="geometry">
+            <mxRectangle width="101" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-39" value="Earth" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-37">
+          <mxGeometry x="101" width="103" height="31" as="geometry">
+            <mxRectangle width="103" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-40" value="土属性的可能被描述为稳定、调和的，有助于平衡修炼者的内外力量。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-37">
+          <mxGeometry x="204" width="536" height="31" as="geometry">
+            <mxRectangle width="536" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-41" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-16">
+          <mxGeometry y="191" width="740.0000000000001" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-42" value="中性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-41">
+          <mxGeometry width="101" height="31" as="geometry">
+            <mxRectangle width="101" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-43" value="Neutral" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-41">
+          <mxGeometry x="101" width="103" height="31" as="geometry">
+            <mxRectangle width="103" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-44" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-41">
+          <mxGeometry x="204" width="536" height="31" as="geometry">
+            <mxRectangle width="536" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b9IpAmTY_o_OzFH7aUh-45" value="SpiritualEnergyEnums" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4b9IpAmTY_o_OzFH7aUh-15">
+          <mxGeometry x="198.21428571428572" width="343.57142857142867" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
