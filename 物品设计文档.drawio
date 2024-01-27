@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T14:28:00.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="d8ScvcHHCFwyQ7D0HtZU" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T14:29:34.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HHy64ywRSr0qm7uislPx" version="23.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2514" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
           <mxGeometry x="-60" y="-670" width="280" height="314" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-18" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;arcSize=12;" parent="SRIymdZ3C50z2DRHbrQ1-90" vertex="1">
-          <mxGeometry y="30" width="280" height="408" as="geometry" />
+          <mxGeometry y="30" width="280" height="375" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
           <mxGeometry width="280" height="33" as="geometry" />
@@ -135,26 +135,8 @@
             <mxRectangle width="93" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SRIymdZ3C50z2DRHbrQ1-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="96" width="280" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="SRIymdZ3C50z2DRHbrQ1-32" value="货币" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-31" vertex="1">
-          <mxGeometry width="93" height="33" as="geometry">
-            <mxRectangle width="93" height="33" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SRIymdZ3C50z2DRHbrQ1-33" value="Currency" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-31" vertex="1">
-          <mxGeometry x="93" width="94" height="33" as="geometry">
-            <mxRectangle width="94" height="33" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SRIymdZ3C50z2DRHbrQ1-34" value="Value 9" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-31" vertex="1">
-          <mxGeometry x="187" width="93" height="33" as="geometry">
-            <mxRectangle width="93" height="33" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="129" width="280" height="31" as="geometry" />
+          <mxGeometry y="96" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-36" value="法器" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-35" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -172,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-43" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="160" width="280" height="31" as="geometry" />
+          <mxGeometry y="127" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-44" value="符文" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-43" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -190,7 +172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-39" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="191" width="280" height="31" as="geometry" />
+          <mxGeometry y="158" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-40" value="书籍" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-39" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -208,7 +190,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-50" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="222" width="280" height="31" as="geometry" />
+          <mxGeometry y="189" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-51" value="食物" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-50" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -226,7 +208,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="253" width="280" height="31" as="geometry" />
+          <mxGeometry y="220" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-55" value="食材" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-54" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -244,7 +226,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-98" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="284" width="280" height="31" as="geometry" />
+          <mxGeometry y="251" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-99" value="灵气" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-98" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -262,7 +244,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-102" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="315" width="280" height="31" as="geometry" />
+          <mxGeometry y="282" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SRIymdZ3C50z2DRHbrQ1-103" value="丹药" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="SRIymdZ3C50z2DRHbrQ1-102" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -280,7 +262,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dYDs-gecifeIPYuVCq4w-12" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="346" width="280" height="31" as="geometry" />
+          <mxGeometry y="313" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="dYDs-gecifeIPYuVCq4w-13" value="其它&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="dYDs-gecifeIPYuVCq4w-12" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
@@ -298,7 +280,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dYDs-gecifeIPYuVCq4w-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="SRIymdZ3C50z2DRHbrQ1-18" vertex="1">
-          <mxGeometry y="377" width="280" height="31" as="geometry" />
+          <mxGeometry y="344" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="dYDs-gecifeIPYuVCq4w-72" value="空间&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="dYDs-gecifeIPYuVCq4w-71" vertex="1">
           <mxGeometry width="93" height="31" as="geometry">
