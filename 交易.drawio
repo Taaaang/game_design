@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T14:06:34.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KWd61wXbX1v6fk93FPGA" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T14:07:36.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Z8-ut5YnJpSkZfpLGYz4" version="23.0.2" type="github">
   <diagram name="第 1 页" id="3V8NZiPNIGzD1AMQ8mw4">
     <mxGraphModel dx="2261" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,12 +82,12 @@
           <mxGeometry y="164" width="295" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U-EZlNdkk1Mu37JpSL0w-52" value="（价值）Price" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="432" y="449" width="356" height="112" as="geometry" />
+          <mxGeometry x="386" y="447" width="356" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="U-EZlNdkk1Mu37JpSL0w-53" value="+ value: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U-EZlNdkk1Mu37JpSL0w-52">
+        <mxCell id="U-EZlNdkk1Mu37JpSL0w-53" value="+ value: long&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;个数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U-EZlNdkk1Mu37JpSL0w-52">
           <mxGeometry y="26" width="356" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U-EZlNdkk1Mu37JpSL0w-57" value="+ itemInformationId:int&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U-EZlNdkk1Mu37JpSL0w-52">
+        <mxCell id="U-EZlNdkk1Mu37JpSL0w-57" value="+ itemInformationId:int&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;货币类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U-EZlNdkk1Mu37JpSL0w-52">
           <mxGeometry y="52" width="356" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U-EZlNdkk1Mu37JpSL0w-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="U-EZlNdkk1Mu37JpSL0w-52">
